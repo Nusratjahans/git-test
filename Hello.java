@@ -5,10 +5,13 @@ public class Hello {
         for (int i=0;i<5;i++){
             System.out.println("PRINT: "+i);
         }
-        
+  
+        greeting("git");
+
     }
-    public static void greeting(String[] val) {
-        System.out.println("Hello "+ val);*/
+
+    public static void greeting(String val) {
+        System.out.println("Hello "+ val);
         
     }
 }
