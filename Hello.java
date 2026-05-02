@@ -19,4 +19,11 @@ public class Hello {
         System.out.println("Hello from branchA "+ val);
         
     }
+
+    public static void newbranch(String val) {
+        System.out.println("Hello from newbranch "+ val);
+        
+    }
+
+
 }
