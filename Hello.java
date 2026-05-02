@@ -7,11 +7,16 @@ public class Hello {
         }
   
         greeting("git");
-
+        greetingbranchA("git");
     }
 
     public static void greeting(String val) {
         System.out.println("Hello "+ val);
+        
+    }
+
+    public static void greetingbranchA(String val) {
+        System.out.println("Hello from branchA "+ val);
         
     }
 }
