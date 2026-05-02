@@ -7,7 +7,8 @@ public class Hello {
         }
   
         greeting("git");
-        greetingbranchA("git");
+        sqr(2);
+        show(5);
     }
 
     public static void greeting(String val) {
@@ -15,15 +16,18 @@ public class Hello {
         
     }
 
-    public static void greetingbranchA(String val) {
-        System.out.println("Hello from branchA "+ val);
+
+    public static void sqr(int x) {
+        System.out.println("check merge in main: "+ x*x);
         
     }
 
-    public static void newbranch(String val) {
-        System.out.println("Hello from newbranch "+ val);
+     public static void show(int x) {
+        System.out.println("my name is: xxx, age is:"+x);
         
     }
+
+
 
 
 }
